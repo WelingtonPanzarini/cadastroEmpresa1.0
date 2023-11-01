@@ -32,7 +32,7 @@ struct Aluno{
     
 };
 //Protótipos de funções
-Cadastro[max];
+int Cadastro[max];
 
 int menu(void); 
 int verificaLista(void);
@@ -82,7 +82,7 @@ void inicia(void){
     for (i = 0; i < max; ++i) Cadastro[i].aluno[0] = '\0';
 }
 
-void Cadastrar(void) {
+ Cadastrar(void) {
     
     int Cad = 0;
     float soma = 0;
